@@ -1,0 +1,182 @@
+﻿/*#region base elements*/
+*
+{
+    font-family: Calibri, Tahoma,Arial,Helvetica, sans-serif;
+}
+
+html
+{
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    /*background: #efefef url(/Content/gfx/background.jpg);*/
+    color: #555;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: .85em;
+    margin: 0px;
+    padding: 0px;
+}
+
+a
+{
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+    a:link, a:visited,
+    a:active, a:hover
+    {
+        color: #333;
+    }
+
+    a:hover
+    {
+        background-color: #c7d1d6;
+    }
+
+header, footer, hgroup,
+nav, section
+{
+    display: block;
+}
+
+mark
+{
+    background-color: #a6dbed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.float-left
+{
+    float: left;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.clear-fix:after
+{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+h1, h2, h3,
+h4, h5, h6
+{
+    color: #444;
+    text-shadow: 1px 1px 1px #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h2
+{
+    font-size: 1.75em;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+    h5 a:link, h5 a:visited, h5 a:active
+    {
+        padding: 0;
+        text-decoration: none;
+    }
+/* #endregion */
+body > header
+{
+    background-color: rgba(0,0,0,0.3);
+    height: 100px;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+}
+
+    body > header > div.menu-row
+    {
+        display: block;
+        position: absolute;
+        /*top: 50%;*/
+        bottom: 0;
+        height: 1em;
+        padding: 1em !important;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        /*margin-top: -1em;*/
+    }
+
+    body > header > div div#menu
+    {
+        color: #ccc;
+        margin-left: 1.5em;
+    }
+
+        body > header > div div#menu a
+        {
+            text-shadow: 1px 1px 1px #555;
+            color: #fff;
+            text-decoration: none;
+        }
+
+    body > header > div div#logo
+    {
+        margin-left: 1em;
+    }
+
+    body > header > div.menu-row pre, code
+    {
+        background-color: #222 !important;
+        text-shadow: none;
+    }
+
+#container
+{
+}
+
+    #container .element
+    {
+        width: 210px;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        margin: 10px 10px;
+        border: 1px solid #fff;
+        background: #fff;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+        padding: 10px;
+    }
+
+        #container .element.wide
+        {
+            width: 460px;
+        }

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Reset.css</id>
+    <version>2.0</version>
+    <title>Reset.css from Eric Meyer</title>
+    <authors>Eric Meyer</authors>
+    <owners>Eric Meyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on.</description>
+    <summary>The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on.</summary>
+    <tags>Reset Css</tags>
+    <references />
+  </metadata>
+</package>
